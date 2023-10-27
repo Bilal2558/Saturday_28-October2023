@@ -9,10 +9,63 @@ h1{
    /* Increase this as per requirement */
    
    padding-bottom: 15px;
-   border-bottom-style: solid;
+   border-bottom-style: solid ;
    border-bottom-width: 3.1px;
    width: fit-content;
 }
+
+
+/* Search Icon Par Yha nechy Kam han */
+
+.input-box{
+    position: relative;
+    height: 56px;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 0 5px 10px ;
+    background: white;
+}
+.input-box i, .input-box .button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-box i{
+    left: 25px;
+    font-size: 18px;
+    color: brown;
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    /* border: none; */
+     border-radius: 30px;
+    padding: 0 155px 0 65px;
+    /* box-shadow:  1px 1px 1px 1px  black; */
+    background-color: transparent;
+}
+
+
+/* search Button pr Workk nechy s */
+.input-box .button{
+    right: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: aliceblue;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color:yellowgreen;
+    cursor: pointer;
+}
+
+
+.input-box .button:hover{
+    background-color: #ec2053;
+}
+
 
 /* slidebar */
 .carousel-item>img{
