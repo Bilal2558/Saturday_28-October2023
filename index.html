@@ -73,113 +73,334 @@
 
     <!-- Navbar -->
     <!-- 1 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info  sticky-top">
         <div class="container">
+            <img class="logo" src="img/logo.png" alt="">
+
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <i class="fa-brands fa-github fa-beat fa-lg" style="color: #511f21;"></i>
-                            github.com/Bilal2558</a>
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <i class="fa-solid fa-phone fa-beat fa-lg" style="color: #511f21;"></i>
-                            0311 6596055</a>
+                        <a class="nav-link active" aria-current="page" href="#">Features</a>
                     </li>
-                </ul>
-                <form class="d-flex ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Become a Patner</a>
+                    </li>
 
-                    <button class="btn btn-outline-primary" type="submit">English</button>
+                </ul>
+                <form class="d-flex">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item mt-2 px-2">
+                           
+                            <i class="fa-solid fa-lock"></i>
+                        
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <button type="button" class="btn btn-success button1">Register</button>
+                        </li>
+
+
+                    </ul>
+
+
                 </form>
             </div>
         </div>
     </nav>
+
+
     <!-- 1 -->
-    <form class="nosubmit">
-        <input class="nosubmit" type="search" placeholder="Search...">
-      </form>
-    <!-- 2 -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  sticky-top ">
-        <div class="container text-md-start text-center">
 
-            <div class="col-md-2  collapse navbar-collapse" id="navbarSupportedContent">
 
-                <!-- logo -->
-                <i class="fa-brands fa-google  fa-2xl" style="color: white;"></i>
+<!-- 2 -->
+<div class="container bg-light py-5 px-4">
+    <div class="row">
+    <div class="col-md-6 col-sm-10 ">
+        <h1>Parking Simplified</h1>
+        <p>Easily Find a Parking Space now!</p>
 
-                <!-- searchbar -->
-                
 
-                <!-- service -->
-                <ul class="col-md-4 navbar-nav ms-1 mb-2 mb-lg-0 fs-6">
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-
-                    <!-- About -->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Page/About.html">About</a>
-                    </li>
-
-                    <!-- Service -->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Service</a>
-                    </li>
-
-                    <!-- Media -->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Page/Media.html">Media</a>
-                    </li>
-
-                    <!-- Contact Us -->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Page/Contact Us.html">Contact Us</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <!-- 2 -->
+        <!-- User -->
+<div class="form-outline1">
+    <input type="text" class="form-control ps-5" placeholder="User" />
+    <i class="fas fa-solid fa-location-dot ms-3"></i>
+  </div>
+  <br>
+  <!-- Email -->
+  <div class="form-outline2">
+    <input type="email" class="form-control ps-5" placeholder="Email" />
+    <i class="fas fa-solid fa-car ms-3"></i>
+  </div>
+  <br>
+  <!-- Password -->
+  <div class="form-outline3">
+    <input type="password" class="form-control ps-5" placeholder="Password" />
+    <i class="fas fa-lock ms-3"></i>
+  </div>
 
 
 
 
-    <!-- slidebar  -->
-    <!-- 3 -->
-    <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel ">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/img1.avif" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/img2.avif" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/img3.avif" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+  
+
+<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<style>
+	select{
+		font-family: fontAwesome
+	}
+</style>
+
+<select>
+     <option value='fa-500px'>&#xf26e; fa-500px</option>
+		<option value='fa-address-book'>&#xf2b9; fa-address-book</option>
+		<option value='fa-address-book-o'>&#xf2ba; fa-address-book-o</option>
+		<option value='fa-address-card'>&#xf2bb; fa-address-card</option>
+		<option value='fa-address-card-o'>&#xf2bc; fa-address-card-o</option>
+		
+</select> -->
+
+
+
+<!-- User
+
+
+
+
+  <br>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1"> <i class="fs-3 fa-solid fa-car"></i></span>
     </div>
-    <!-- 3 -->
+    <select class="select form-control"" data-mdb-filter="true">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+        <option value="6">Six</option>
+        <option value="7">Seven</option>
+        <option value="8">Eight</option>
+        <option value="9">Nine</option>
+        <option value="10">Ten</option>
+      </select>
+  </div>
 
 
 
-    <h1 class="text-center">Muhammad Bilal-117485</h1>
+
+
+
+
+<br>
+<span>
+    <i class="fas3 fa-solid fa-square-caret-right"></i>
+    <input type="text" class=" ps-5"  />
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span>
+    <i class="fas4 fa-solid fa-square-caret-left"></i>
+    <input type="text" class=" ps-5"  />
+</span>
+<br>
+<p class="small">Please select minimum booking 1 hr</p>
     
-<!--  Bootstap_js -->
+<button type="button" class="btn btn-primary btn-lg button1">Search Parking Space</button>
+
+      
+  </div>
+ -->
+
+    </div>
+    <div class="col-md-6 col-sm-12 py-5 "><img class="Bilal rounded-3" src="img/Bilal image.png" alt=""></div>
+</div>
+</div>
+<!-- 2 -->
+
+
+<!-- 3 -->
+<div class="container text-center">
+<h1>We are everywhere!</h1>
+<p>Find a new home for your car.</p>
+
+
+<div class="card-group ">
+    <div class="card px-3 py-3">
+      <img src="img/car.jpg" class="card-img-top rounded-3 " alt="...">
+      <div class="card-body">
+        <br>
+       <h3>City Parking</h3>
+       <br><br>
+       <button type="button" class="btn btn-primary btn-lg button1">find a parking</button>
+      </div>
+    </div>
+    <div class="card px-3 py-3">
+      <img src="img/truck.jpg" class="card-img-top  rounded-3 " alt="...">
+      <div class="card-body">
+        <br>
+        <h3>Truck Parking</h3>
+        <br><br>
+        <button type="button" class="btn btn-primary btn-lg button1">find a parking</button>
+      </div>
+    </div>
+    <div class="card px-3 py-3">
+      <img src="img/airport.jpg" class="card-img-top  rounded-3 " alt="...">
+      <div class="card-body">
+        <br>
+       <h3>Airport Parking</h3>
+       <br><br>
+       <button type="button" class="btn btn-primary btn-lg button1">find a parking</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- 3 -->
+
+
+<br>
+<br>
+
+<!-- 4 -->
+<div class="container text-center button1 py-5 px-5 ">
+    <div class="text-white px-5">
+    <h1>We are everywhere!</h1>
+    <p>We understand the pain for finding the right spot where your car feels home. Handicap friendly spots, diligent customer support, we aim to comfort you with nearest parking spot!</p>
+</div>
+    
+    <div class="card-group ">
+        <div class="card px-3 py-3">
+          <img src="img/1.png" class="card-img-top rounded-3 " alt="...">
+          <div class="card-body">
+           <h3>It's fast</h3>
+           <br>
+           <p class="small">Our new app makes finding spots in not more than 3 steps. We're building the largest network of parking spots</p>
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+          <img src="img/2.png" class="card-img-top  rounded-3 " alt="...">
+          <div class="card-body">
+            <h3>It's fast</h3>
+           <br>
+           <p class="small">Our new app makes finding spots in not more than 3 steps. We're building the largest network of parking spots</p>
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+          <img src="img/3.png" class="card-img-top  rounded-3 " alt="...">
+          <div class="card-body">
+            <h3>It's fast</h3>
+            <br>
+            <p class="small">Our new app makes finding spots in not more than 3 steps. We're building the largest network of parking spots</p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <!-- 4 -->
+
+<br><br>
+<!-- 5 -->
+<div class="container text-center">
+    <h1>Airport Parking</h1>
+    <div class="card-group ">
+        <div class="card px-3 py-3">
+          <img src="img/4.jpg" class="card-img-top rounded-3 " alt="...">
+          <div class="card-body">
+            <br>
+           <h3>City Parking</h3>
+           <br><br>
+           <button type="button" class="btn btn-primary btn-lg button1">Book Now</button>
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+          <img src="img/5.jpg" class="card-img-top  rounded-3 " alt="...">
+          <div class="card-body">
+            <br>
+            <h3>Truck Parking</h3>
+            <br><br>
+            <button type="button" class="btn btn-primary btn-lg button1">Book Now</button>
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+          <img src="img/6.png" class="card-img-top  rounded-3 " alt="...">
+          <div class="card-body">
+            <br>
+           <h3>Airport Parking</h3>
+           <br><br>
+           <button type="button" class="btn btn-primary btn-lg button1">Book Now</button>
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+            <img src="img/7.jpg" class="card-img-top  rounded-3 " alt="...">
+            <div class="card-body">
+              <br>
+             <h3>Airport Parking</h3>
+             <br><br>
+             <button type="button" class="btn btn-primary btn-lg button1">Book Now</button>
+            </div>
+          </div>
+      </div>
+    
+    </div>
+    <!-- 5 -->
+
+<br><br>
+    <!-- 6 -->
+<div class="container text-center">
+    <h1>We are everywhere!</h1>
+
+    <div class="card-group text-start">
+        <div class="card px-3 py-3">
+          <img src="img/8.jpg" class="card-img-top rounded-3 " alt="...">
+          <div class="card-body">
+            <br>
+           <h4>Why book your car parkin</h4>
+           <p class="small">Online car parking can be a game-changer for anyone planning a trip, whether it's for b</p>
+           <p class="text-uppercase ">read more>></p>
+           
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+          <img src="img/9.jpeg" class="card-img-top  rounded-3 " alt="...">
+          <div class="card-body">
+            <br>
+            <h4>Why book your car parkin</h4>
+        
+            <p class="text-uppercase ">read more>></p>
+          </div>
+        </div>
+        <div class="card px-3 py-3">
+          <img src="img/10.PNG" class="card-img-top  rounded-3 " alt="...">
+          <div class="card-body">
+            <br>
+            <h4>Why book your car parkin</h4>
+       
+           <p class="text-uppercase ">read more>></p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <!-- 6-->
+    <br> <br>
+<!-- 7 -->
+
+<!-- 7 -->
+
+
+
+
+    <!--  Bootstap_js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
@@ -187,7 +408,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
-        <!-- js -->
+    <!-- js -->
     <script src="aap.js"></script>
 </body>
 
